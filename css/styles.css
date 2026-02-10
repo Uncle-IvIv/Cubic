@@ -5,10 +5,16 @@ body {
   text-decoration: none;
   transition: all 2500ms ease;
 }
-body:active {
+body:hover {
   background-color: aqua;
   transition: background-color 0.5s linear 0.5s;
 }
+@media (hover: none) {
+  body:active {
+    background-color: aqua;
+  }
+}
+
 /* reset */
 a {
   text-decoration: none;
