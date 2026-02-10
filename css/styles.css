@@ -78,8 +78,7 @@ button {
   height: 450px;
   justify-content: center;
   padding-top: 170px;
-  margin-left: 100px;
-  margin-right: 100px;
+
   margin-bottom: 80px;
   transition: all 1500ms ease;
   border: 4px solid forestgreen;
