@@ -5,7 +5,7 @@ body {
   text-decoration: none;
   transition: all 2500ms ease;
 }
-body:hover {
+body:active {
   background-color: aqua;
   transition: background-color 0.5s linear 0.5s;
 }
@@ -86,6 +86,7 @@ button {
 
 .first-cub:hover {
   color: #f10606;
+  cursor: pointer;
 }
 
 .cubic {
