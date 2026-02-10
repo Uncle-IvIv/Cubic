@@ -7,6 +7,7 @@ body {
 }
 body:hover {
   background-color: aqua;
+  transition: background-color 0.5s linear 0.5s;
 }
 /* reset */
 a {
@@ -26,10 +27,10 @@ p {
 
 ul,
 ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-} /*для видалення маркерів елементів списку, скидаємо марджин падінг та  до «0»*/
+  list-style: none; /*для видалення маркерів елементів списку list-style: none;*/
+  padding: 0; /* Прибирає відступи зліва, які залишаються від маркерів */
+  margin: 0; /* За бажанням, прибирає зовнішні відступи */
+}
 
 img {
   display: block;
