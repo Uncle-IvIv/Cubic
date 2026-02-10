@@ -1,0 +1,143 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #434455;
+  text-decoration: none;
+  transition: all 2500ms ease;
+}
+body:hover {
+  background-color: aqua;
+}
+/* reset */
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* скидаємо марджин заголовків та параграфів до «0»  */
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} /*для видалення маркерів елементів списку, скидаємо марджин падінг та  до «0»*/
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: 0;
+}
+/* common */
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.cubic-a {
+  text-align: center;
+}
+
+.text-p {
+  padding-top: 40px;
+  margin-bottom: 80px;
+  transition: all 1500ms ease;
+  z-index: 1;
+  color: #0cd01d;
+}
+
+.text-p:hover {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(244, 7, 54);
+}
+
+.cub {
+  background-color: rgb(212, 212, 14);
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+  min-width: 400px;
+  height: 450px;
+  justify-content: center;
+  padding-top: 170px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+  transition: all 1500ms ease;
+  border: 4px solid forestgreen;
+}
+
+.cub:hover {
+  border-radius: 50%;
+}
+
+.first-cub {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.cubic {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  transition-timing-function: linear;
+  transition-duration: 1500ms;
+  border-radius: 5px;
+}
+
+.cubic:hover {
+  background-color: rgb(13, 13, 1);
+  transform: rotate(90deg);
+  border-radius: 50%;
+}
+
+.cubic:nth-child(2) {
+  background-color: aqua;
+}
+
+.cubic:nth-child(2):hover {
+  background-color: rgb(13, 13, 1);
+}
+
+.cubic:nth-child(3) {
+  background-color: rgb(0, 34, 255);
+}
+
+.cubic:nth-child(3):hover {
+  background-color: rgb(13, 13, 1);
+}
+
+.cubic:nth-child(4) {
+  background-color: rgb(251, 0, 255);
+}
+
+.cubic:nth-child(4):hover {
+  background-color: rgb(13, 13, 1);
+}
+
+.cubic:nth-child(5) {
+  background-color: rgb(255, 0, 13);
+}
+
+.cubic:nth-child(5):hover {
+  background-color: rgb(13, 13, 1);
+}
